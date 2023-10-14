@@ -11,15 +11,16 @@ button {
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE, #434455);
+    background-color: #FFFFFF;
 }
 
 .logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -29,7 +30,7 @@ body {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--NAVY-BLUE, #2E2F42);
@@ -74,6 +75,7 @@ body {
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -92,14 +94,17 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .benefits-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: var(--SLATE, #434455);
+}
+
+.our-team {
+    background-color: #F4F4FD;
 }
 
 .our-team-title {
@@ -108,6 +113,11 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
 }
 
 .our-team-item-title {
@@ -116,6 +126,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .our-team-item-text {
@@ -132,6 +143,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .portfolio-item-title {
@@ -139,13 +151,17 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .portfolio-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: var(--SLATE, #434455);
+}
+
+.footer {
+    background-color: #2e2f42;
 }
 
 .footer-text {
@@ -153,4 +169,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--CLOUD, #F4F4FD);
+}
+
+.logo-footer {
+    color: #f4f4fd;
 }
