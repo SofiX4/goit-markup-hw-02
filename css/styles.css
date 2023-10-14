@@ -49,9 +49,12 @@ body {
     color: var(--OCEAN, #404BBF);
 }
 
+.page-address {
+    font-style: normal;
+}
+
 .page-address-link {
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--SLATE, #434455);
